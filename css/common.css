@@ -45,6 +45,16 @@ img.displayed {
     font: 12px "Open Sans", sans-serif;
     line-height: 19px;
     color: #1f1f1f
-
 }
+a:link {
+    color: #337ab7;
+}
+a:visited {
+    color: lightblue;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: pink;
 }
