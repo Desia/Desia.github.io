@@ -74,42 +74,56 @@
                     </br>
                     <div>
 
-                    <p>Na początku był George Boole. Prosty matematyk samouk stworzył podwaliny pod współczesną algebrę.
-                        Przez lata niezmiennie przemierzał tę samą trasę na uniwersytet na którym pracował, aż pewnego
-                        dnia dopadł go deszcz. Nie byłoby w tym nic niezwyklego, gdyby nie to, że naukowiec przemókł do suchej nitki w skutek czego rozłożyło go dotkliwe
-                        przeziębienie. Jego szanowna małżonka zabrała się do leczenia swoimi metodami. Pani Boole
-                        uparcie wierzyła, że chorobę wygoni przyczyna gorszego samopoczucia i codziennie polewała
-                        przeziębionego męża wiaderkiem zimnej wody. Finału tej historii można się domyśleć...</p>
+                        <p>Na początku był George Boole. Prosty matematyk samouk położył podwaliny pod współczesną
+                            algebrę.</p>
+                        <p>Przez lata niezmiennie przemierzał tę samą trasę na uniwersytet na którym pracował, aż
+                            pewnego
+                            dnia dopadł go deszcz. Nie byłoby w tym nic niezwyklego, gdyby nie to, że naukowiec przemókł
+                            do suchej nitki w skutek czego rozłożyło go dotkliwe
+                            przeziębienie. Jego szanowna małżonka zabrała się do leczenia swoimi metodami. Pani Boole
+                            uparcie wierzyła, że chorobę wygoni przyczyna gorszego samopoczucia i codziennie polewała
+                            przeziębionego męża wiaderkiem zimnej wody. Finału tej historii można się domyśleć...</p>
                         <p>W spadku
-                        po tym dziewiętnastowiecznym angielskim matematyku i filozofie otrzymaliśmy logikę którą z
-                        sukcesem wykorzystuje współczesna branża rekrutacyjna.</p>
+                            po tym dziewiętnastowiecznym angielskim matematyku i filozofie otrzymaliśmy logikę którą z
+                            sukcesem wykorzystuje współczesna branża rekrutacyjna.</p>
                         </br>
 
                         <h3>Krok 1. Zaprzyjaźnij się z Booleanem!</h3>
-</br>
-                        <p>Boolean search pozwala skutecznie wydobyć prawdziwe skarby z przepastnych czeluści internetów.
-                        Niektóre z portali, które zapewne wykorzystujesz na codzień w pracy, również pozwala na
-                        wykorzystaniu tej logiki w ich wyszukiwarkach (np. LinkedIn lub Monster).</p>
+                        </br>
+                        <p>Boolean search pozwala skutecznie wydobyć prawdziwe skarby z przepastnych czeluści
+                            internetów.
+                            Niektóre z portali, które zapewne wykorzystujesz na codzień w pracy, również pozwala na
+                            wykorzystaniu tej logiki w ich wyszukiwarkach (np. LinkedIn lub Monster).</p>
 
                         <p>Jeśli jeszcze nie zaprzyjaźniłeś się z operatorami i prostą logiką booleanowską to najwyższy
-                        moment na nadrobienie zaległości.</p>
+                            czas na nadrobienie zaległości.Zacznijmy od podstaw*.</p>
                         <p> Dzisiejszy odcinek sponsorują: OR, AND, (), "", NOT</p>
-                    </br>
-                    <h3>Krok 2. Jak działa OR?</h3>
+                        <p><i>*Boolean search to nie fizyka kwantowa, wymaga jedynie
+                            znajomości kilku reguł, ćwiczeń i cierpliwości. Nie oczekuj od razu spektakularnych
+                            wyników.</i></p>
+                        </br>
+                        <h3>Krok 2. Jak działa OR?</h3>
+                        </br>
                         <p>Załóżmy, że poszukujemy programisty z doświadczeniem w programowaniu funkcyjnym. Otwórz
-                        wyszukiwarkę Google lub LinkedIn i wpisz poniższą frazę.</p>
+                            wyszukiwarkę Google lub LinkedIn i wpisz poniższą frazę.</p>
 
                         <p></p><i>engineer OR developer OR programmer OR programista OR coder</i></p>
 
                         <p><b>OR</b></p>
 
-                        <p>Ten operator pozwala znalezienie dokumentów lub stron zawierających jedno z podanych przez nas
-                        slów kluczowych.</p>
-                        <p>Ostrzegam, że otrzymane wyniki raczej nie będą satysfakcjonować.</p>
-                        </br>
-                        <h3>Krok 3. Czas na AND</h3>
+                        <p>Ten operator pozwala znalezienie dokumentów lub stron zawierających jedno z podanych przez
+                            nas
+                            slów kluczowych.</p>
 
-                        <p></p>Hola, hola, ale chyba nie szukamy byle jakiego programisty? Zawęźmy wyniki wyszukiwania przez
+                        </br>
+                        <img src="../img/AORB.png" class="img-responsive" alt="Picture">
+                        </br>
+
+                        <h3>Krok 3. Czas na AND</h3>
+                        </br>
+
+                        <p></p>Hola, hola, ale chyba nie szukamy byle jakiego programisty? Zawęźmy wyniki wyszukiwania
+                        przez
                         dodanie kilku słów kluczowych.</p>
 
                         <p>Możemy zacząć od prostego stringu:</p>
@@ -120,37 +134,86 @@
 
                         <p><i>(engineer OR developer OR programmer OR programista OR coder) AND (functional OR OCalm OR
                             scala OR haskell OR "f#")</i></p>
-
-                        <p></p><b>AND</b> pozwala wyszukać tylko te dokumenty, które zawierają co najmniej po jednym wyrażeniu
-                        z obu nawiasów. Nawiasy (brackets) sprawiają, że zapis jest klarowny, rozdziela poszczególne
-                        warunki wyszukiwania, ale także tak jak matematyce służy kolejności wykonywania działań.</p>
+                        <p>Napiszę o tym więcej w kolejnych odcinkach serii, ale warto pamietać, że wyszukiwarka Googla
+                            domyśle uznaje spację pomiędzy wyrazami za AND. </p>
                         </br>
+                        <img src="../img/AANDB.png" class="img-responsive" alt="Picture">
+                        </br>
+
+                        <p></p><b>AND</b> pozwala wyszukać tylko te dokumenty, które zawierają co najmniej po jednym
+                        wyrażeniu
+                        z obu nawiasów. Nawiasy (<b>brackets</b>) sprawiają, że zapis jest klarowny, rozdziela
+                        poszczególne
+                        warunki wyszukiwania, ale także tak jak arytmetyce służy kolejności wykonywania działań.</p>
+                        </br>
+
                         <h3>Krok 4. W cudzysłowie</h3>
                         </br>
-                        <p>Jeśli szukamy tylko kogoś to sie tytułuje Haskell Ninja lub OCalm Master, użyjmy cudzysłowiu
-                        (quotation marks) czyli</p>
+                        <p>Jeśli szukamy tylko konkretnego wyrażenia (np. "software engineer", a nie jedynie "engineer"), lub
+                            wyszukiwane przez nas słowo kluczowe może zaburzyc wyniki (np. "C++") korzystajmy z
+                            cudzysłowia. Załóżmy kogoś kto tytułuje się
+                            Haskell Ninja lub OCaml Master, użyjmy zatem cudzysłowia
+                            (<b>quotation marks</b>) czyli</p>
 
-                        <p></p><i>"haskell ninja" OR "Ocalm master"</i></p>
+                        <p></p><i>"haskell ninja" OR "Ocaml master"</i></p>
                         </br><h3>Krok 5. Wykluczenie z NOT</h3>
                         </br>
-                        <p>Możemy także pomóc sobie operatorem NOT lub -. Nie wspiera go niestety wyszukiwarka Googla, ale
-                        śmiało możemy go wykorzystać na Linkedin. Załóżmy, że nie chcemy wyszukiwać programistów, którzy
-                        pracowali lub pracują w naszej firmie, zatem:</p>
-
-                        <p></p><i>(engineer OR developer OR programmer OR programista OR coder) AND (functional OR OCalm OR
-                            scala OR haskell OR "f#") NOT Comarch</i></p>
+                        <p>Możemy także pomóc sobie operatorem NOT lub - (<b>minus</b>).</p>
 
                         </br>
+                        <img src="../img/ANOTB.png" caorblass="img-responsive" alt="Picture">
+                        </br>
+                        <p>Operatora NOT nie wspiera
+                            wyszukiwarka Googla, możemy natomiast wykorzystywać minus.
+                            Załóżmy, że nie chcemy wyszukiwać programistów,
+                            którzy
+                            pracowali lub pracują w naszej firmie, zatem:</p>
+
+                        <p></p><i>(engineer OR developer OR programmer OR programista OR coder) AND (functional OR OCalm
+                        OR
+                        scala OR haskell OR "f#") NOT Comarch</i></p>
+                        </br>
+
                         <h3>Do następnego razu!</h3>
 
                         <p>Mam nadzieję, że udało mi się wyjaśnić podstawy zastosowania wyszukiwania Booleanowskiego i
-                        nabraliście apetytu na więcej. W kolejnych odsłonach serii podzielę się sekretami jak odnaleźć
-                        prawdziwe perełki z pomocą tej metody.</p>
+                            nabraliście apetytu na więcej. W kolejnych odsłonach serii podzielę się sekretami jak
+                            odnaleźć
+                            prawdziwe perełki z pomocą tej logiki.</p>
                         </br>
                     </div>
 
-                        </br>
-                        </hr>
+                    </br>
+                    <div id="disqus_thread"></div>
+                    <script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//ministryoftalent.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+
+
+
+
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
+                                                                      rel="nofollow">comments powered by Disqus.</a>
+                    </noscript>
+                    </script>
+                    </hr>
                     <h2>Podobne artykuły:</h2>
                     </br>
                     <div class="row">
@@ -166,10 +229,10 @@
                             <p><a class="btn btn-default" href="metodastart.html" role="button">Czytaj... »</a></p>
                         </div>
 
-                        </script>
+
             <script src="../../dist/js/bootstrap.min.js"></script>
-                        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-                        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-                        <script src="../js/analytics.js"></script>
+                    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+                    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+                    <script src="../js/analytics.js"></script>
 </body>
 </html>
