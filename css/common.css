@@ -50,11 +50,15 @@ a:link {
     color: #337ab7;
 }
 a:visited {
-    color: lightblue;
+    color: navy;
 }
 a:hover {
     color: hotpink;
 }
 a:active {
     color: pink;
+}
+mark {
+    background-color: lightgrey;
+    color: black;
 }
