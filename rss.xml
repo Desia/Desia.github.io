@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+    <channel>
+        <title>Ministry of Talent</title>
+        <link>http://www.ministryoftalent.co.uk</link>
+        <description>Blog about Talent Industry & London</description>
+        <item>
+            <title>Ministry of Talent</title>
+            <link>http://www.ministryoftalent.co.uk/xml/xml_rss.asp</link>
+            <description>Blog about Talent Industry & London</description>
+        </item>
+        <item>
+            <title>Ministry of Talent</title>
+            <link>http://www.ministryoftalent.co.uk/xml</link>
+            <description>Blog about Talent Industry & London</description>
+        </item>
+    </channel>
+
+</rss>
