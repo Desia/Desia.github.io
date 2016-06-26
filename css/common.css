@@ -64,3 +64,12 @@ mark {
 }
 .email {
      color: hotpink;
+}
+.summary {
+    font: "Helvetica Neue";
+    color: black;
+    padding-left: 6cm;
+    padding-right: 7cm;
+    padding-bottom; 1cm;
+    padding-top; 1cm;
+ }
